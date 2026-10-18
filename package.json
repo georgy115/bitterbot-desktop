@@ -63,6 +63,7 @@
     "android:install": "cd apps/android && ./gradlew :app:installDebug",
     "android:run": "cd apps/android && ./gradlew :app:installDebug && adb shell am start -n ai.bitterbot.android/.MainActivity",
     "android:test": "cd apps/android && ./gradlew :app:testDebugUnitTest",
+    "bench": "vitest bench --run --config vitest.bench.config.ts",
     "benchmark:biomemeval": "vitest run --config benchmarks/biomemeval/vitest.config.ts && node --import tsx benchmarks/biomemeval/generate-report.ts",
     "benchmark:longmemeval": "node --import tsx benchmarks/longmemeval/runner.ts",
     "benchmark:longmemeval:biological": "node --import tsx benchmarks/longmemeval/runner-biological.ts --oracle",
@@ -205,6 +206,7 @@
     "zod": "^4.3.6"
   },
   "devDependencies": {
+    "@codspeed/vitest-plugin": "^6.1.0",
     "@grammyjs/types": "^3.24.0",
     "@lit-labs/signals": "^0.2.0",
     "@lit/context": "^1.1.0",

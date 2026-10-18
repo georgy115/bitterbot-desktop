@@ -20,6 +20,7 @@
   <img src="https://img.shields.io/badge/node-%E2%89%A5%2022-c084fc?style=flat-square&logo=node.js&logoColor=white" alt="Node >= 22">
   <img src="https://img.shields.io/badge/platform-macOS%20%C2%B7%20Linux%20%C2%B7%20Windows-9333ea?style=flat-square" alt="Platform">
   <a href="https://x.com/Bitterbot_AI"><img src="https://img.shields.io/badge/@Bitterbot__AI-000000?style=flat-square&logo=x&logoColor=white" alt="X / Twitter"></a>
+  <a href="https://app.codspeed.io/georgy115/bitterbot-desktop?utm_source=badge"><img src="https://img.shields.io/endpoint?url=https://codspeed.io/badge.json" alt="CodSpeed"/></a>
 </p>
 
 <p align="center">
